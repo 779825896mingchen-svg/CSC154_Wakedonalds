@@ -4,7 +4,7 @@ const { Pool } = require("pg")
 // Example:
 // DATABASE_URL=postgresql://user:pass@host/dbname?sslmode=require
 
-const connectionString = process.env.DATABASE_URL || ""
+const connectionString = process.env.DATABASE_URL || "postgresql://neondb_owner:npg_mK9oEV6OTPzu@ep-hidden-dawn-ajudpfqv-pooler.c-3.us-east-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require"
 
 let pool = null
 
