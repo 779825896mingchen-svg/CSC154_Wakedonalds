@@ -1,3 +1,4 @@
 exclude:
   - node_modules
   - WakeDonalds/node_modules
+  - "**/node_modules"
